@@ -33,5 +33,5 @@ The main goal of this project is to:
 
 ## 📂 Project Structure
 ## 🌐 Live Portfolio
-🔗 [https://USERNAME.github.io/My_portfolio_website/](https://suhaninayak5329.github.io/My_portfolio_website/)
+🔗 https://suhaninayak5329.github.io/My_portfolio_website/
 
