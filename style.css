@@ -149,3 +149,254 @@ button:nth-child(2):hover{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+.about-section {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 80px 10%;
+}
+
+.about-section h2 {
+  font-size: 42px;
+  color: #6cc1ff;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  max-width: 800px;
+}
+
+.about-info {
+  margin-top: 30px;
+}
+
+.about-info div {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-info span {
+  color: #6cc1ff;
+  font-weight: bold;
+}
+.work-section {
+  background: #020617;
+  padding: 100px 10%;
+  color: #ffffff;
+}
+
+.work-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.work-section h2 {
+  font-size: 44px;
+  color: #6cc1ff;
+  margin-bottom: 50px;
+}
+
+.work-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.work-card {
+  background: #0b1220;
+  padding: 30px;
+  border-radius: 16px;
+  transition: 0.3s ease;
+  border: 1px solid #1e293b;
+}
+
+.work-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(108, 193, 255, 0.2);
+}
+
+.work-card h3 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.work-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cbd5f5;
+  margin-bottom: 15px;
+}
+
+.work-card span {
+  font-size: 14px;
+  color: #6cc1ff;
+}
+.project-links {
+  margin-top: 15px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #6cc1ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+.projects-section {
+  background: #0b1220;
+  padding: 100px 10%;
+  color: #ffffff;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.projects-section h2 {
+  font-size: 44px;
+  color: #6cc1ff;
+  margin-bottom: 50px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #1e293b;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(108, 193, 255, 0.2);
+}
+
+.project-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cbd5f5;
+  margin-bottom: 15px;
+}
+
+.project-card span {
+  font-size: 14px;
+  color: #6cc1ff;
+}
+.project-links a {
+  margin-right: 15px;
+  color: #6cc1ff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+.service-section {
+  background-color: #020617;
+  color: #ffffff;
+  padding: 80px 10%;
+}
+
+.service-section h2 {
+  font-size: 42px;
+  color: #6cc1ff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #0f172a;
+  padding: 30px;
+  width: 280px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card h3 {
+  color: #6cc1ff;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(108, 193, 255, 0.25);
+}
+.project-section {
+  background-color: #020617;
+  color: #ffffff;
+  padding: 80px 10%;
+}
+
+.project-section h2 {
+  font-size: 42px;
+  color: #6cc1ff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #0f172a;
+  padding: 30px;
+  width: 300px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card h3 {
+  color: #6cc1ff;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(108, 193, 255, 0.25);
+}
+
+html {
+  scroll-behavior: smooth;
+}
